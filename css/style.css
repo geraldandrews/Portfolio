@@ -656,7 +656,7 @@ nav {
 }
 
 #contact form input[type="text"]:hover {
-   border: none;
+   outline: none;
 }
 
 #contact form textarea{
