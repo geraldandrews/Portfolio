@@ -83,7 +83,7 @@ nav {
    background: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
    .nav-container {
       position: relative;
    }
@@ -240,7 +240,7 @@ nav {
    height: 65%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
    .heading h2 {
       text-align: center;
    }
@@ -451,7 +451,7 @@ nav {
    }
 } 
 
-@media (max-width: 767px) {
+@media (max-width: 820px) {
    #about {
       flex-direction: column;
    }
@@ -570,13 +570,11 @@ nav {
    }
 }
 
-@media (max-width: 816px) {
+@media (max-width: 820px) {
    .school h2 {
       font-size: 1.1rem;
    }
-}
 
-@media (max-width: 801px) {
    .schools {
       flex-direction: column;
    }
@@ -701,13 +699,11 @@ nav {
    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 820px) {
    .info-column {
       width: 75%;
    }
-}
-
-@media (max-width: 750px) {
+   
    .contact-container {
       flex-direction: column;
       width: 85%;
