@@ -666,6 +666,9 @@ nav {
   padding: 10px 10px;
 }
 
+#contact form textarea:hover{
+   outline: none;
+
 #contact form button{
   width: 100%;
   padding: 10px 0;
