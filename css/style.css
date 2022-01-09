@@ -411,8 +411,7 @@ nav {
 
 .about-img img {
    width: 300px;
-   border-radius: 50%;
-   border: 2px solid navy;
+   border-radius: 20px;
 }
 
 .about-info h1 {
