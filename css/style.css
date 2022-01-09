@@ -307,16 +307,13 @@ nav {
 
 @media (max-width: 900px) {
    .skills-container {
-      grid-template-columns: repeat(auto-fill, 35%);
-      justify-content: space-evenly;
-      justify-items: center;
-      align-content: space-evenly;
-      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
    }
    
    .skills-container .skill {
       margin: 10px auto;
-      width: 100%;
+      width: 35%;
    }
 }
 
