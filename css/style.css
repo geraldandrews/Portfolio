@@ -309,6 +309,7 @@ nav {
    .skills-container {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
    }
    .skills-container .skill {
       margin: 10px auto;
