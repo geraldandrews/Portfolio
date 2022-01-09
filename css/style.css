@@ -307,7 +307,7 @@ nav {
 
 @media (max-width: 900px) {
    .skills-container {
-      grid-template-columns: repeat(auto-fill, 186px);
+      grid-template-columns: repeat(auto-fill);
    }
    .skills-container .skill {
       margin: 10px auto;
