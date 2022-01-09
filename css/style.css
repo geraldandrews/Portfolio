@@ -357,6 +357,11 @@ nav {
    border-top-right-radius: 5px;
 }
 
+.project .icon-img {
+   width: 50px;
+   padding: 0 10px;
+}
+
 .project .project-button {
    display: block;
    padding: 8px 16px;
