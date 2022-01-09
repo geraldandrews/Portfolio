@@ -364,13 +364,19 @@ nav {
    color: #fff;
 }
 
-.project .project-button-2 {
+.project .project-button-2, .project-button-3 {
    display: block;
    padding: 8px 16px;
    background: var(--dark);
    color: #fff;
    border-bottom-left-radius: 5px;
    border-bottom-right-radius: 5px;
+}
+
+.project-button-3 {
+   display: flex;
+   align-items: center;
+   padding: 6px;
 }
 
 .project-container a {
