@@ -66,3 +66,14 @@ function scrollShowNav() {
    }
 } 
 
+// Animations
+ScrollReveal({
+  reset: false,
+  distance: '60px',
+  duration: 2500,
+  delay: 400
+});
+
+ScrollReveal().reveal('.about-info', { delay: 0, origin: 'right' });
+
+
