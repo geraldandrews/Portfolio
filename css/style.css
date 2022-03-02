@@ -394,12 +394,6 @@ nav {
    text-decoration: underline;
 }
 
-.resume {
-   text-align: center;
-   color: var(--dark);
-   padding-bottom: 25px;
-}
-
 @media (max-width: 1123px) {
    #projects .project-container {
       grid-template-columns: repeat(3, 1fr);
@@ -416,6 +410,30 @@ nav {
    #projects .project-container {
       grid-template-columns: 1fr;
    }
+}
+
+/* Resume */
+.resume-section {
+   background: #f5f5f5;
+   padding: 25px;
+}
+
+.resume-btn {
+   display: block;
+   margin: 0 auto;
+   background: #181b24;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   padding: 15px 25px;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.resume-btn a {
+   text-decoration: none;
+   color: #fff;
 }
 
 /*About */
