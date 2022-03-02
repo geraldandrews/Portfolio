@@ -436,6 +436,10 @@ nav {
    color: #fff;
 }
 
+.resume-btn a:hover {
+   text-decoration: underline;
+}
+
 /*About */
 #about {
    background: var(--grey);
