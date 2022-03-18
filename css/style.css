@@ -351,6 +351,14 @@ nav {
    }
 }
 
+/* Line */
+.line {
+   width: 75%;
+   margin: auto;
+   background: #fff;
+   height: 3px;
+}
+
 /* Skills */
 #skills {
    background: var(--grey);
