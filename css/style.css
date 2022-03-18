@@ -264,6 +264,93 @@ nav {
    }
 }
 
+/*About */
+#about {
+   background: var(--grey);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 35px 0;
+   line-height: 1.6;
+   overflow: hidden
+}
+
+.about-img img {
+   width: 300px;
+   border-radius: 20px;
+}
+
+.about-info h1 {
+   font-size: 2.5rem;
+   font-weight: 100;
+   letter-spacing: 1px;
+   text-align: center;
+} 
+
+.about-info h2 {
+   font-size: 1.3rem;
+   font-weight: 100;
+   text-align: center;
+   line-height: 3rem;
+}
+
+.about-info .line {
+   background: var(--blue);
+   height: 5px;
+   width: 425px;
+   margin: auto;
+} 
+
+.about-info p {
+   width: 600px;
+   margin: 40px 0;
+}
+
+@media (max-width: 950px) {
+  .about-img img {
+      width: 75%;
+      margin: 0 25px;
+   }
+   .about-info p {
+      margin: 20px auto;
+      padding: 20px;
+   }
+} 
+
+@media (max-width: 820px) {
+   #about {
+      flex-direction: column;
+   }
+
+   .about-img img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 50%;
+      padding: 20px;
+   }
+}
+
+@media (max-width: 648px) {
+   .about-img img {
+      width: 75%;
+   }
+   
+   .about-info h1 {
+      font-size: 2rem;
+   }
+
+  .about-info p {
+      width: 100%;
+      padding: 20px;
+      margin: auto;
+   }
+
+   .about-info .line {
+      width: 85%;
+   }
+}
+
 /* Skills */
 #skills {
    background: var(--grey);
@@ -438,93 +525,6 @@ nav {
 
 .resume-btn a:hover {
    text-decoration: underline;
-}
-
-/*About */
-#about {
-   background: var(--grey);
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 35px 0;
-   line-height: 1.6;
-   overflow: hidden
-}
-
-.about-img img {
-   width: 300px;
-   border-radius: 20px;
-}
-
-.about-info h1 {
-   font-size: 2.5rem;
-   font-weight: 100;
-   letter-spacing: 1px;
-   text-align: center;
-} 
-
-.about-info h2 {
-   font-size: 1.3rem;
-   font-weight: 100;
-   text-align: center;
-   line-height: 3rem;
-}
-
-.about-info .line {
-   background: var(--blue);
-   height: 5px;
-   width: 425px;
-   margin: auto;
-} 
-
-.about-info p {
-   width: 600px;
-   margin: 40px 0;
-}
-
-@media (max-width: 950px) {
-  .about-img img {
-      width: 75%;
-      margin: 0 25px;
-   }
-   .about-info p {
-      margin: 20px auto;
-      padding: 20px;
-   }
-} 
-
-@media (max-width: 820px) {
-   #about {
-      flex-direction: column;
-   }
-
-   .about-img img {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      width: 50%;
-      padding: 20px;
-   }
-}
-
-@media (max-width: 648px) {
-   .about-img img {
-      width: 75%;
-   }
-   
-   .about-info h1 {
-      font-size: 2rem;
-   }
-
-  .about-info p {
-      width: 100%;
-      padding: 20px;
-      margin: auto;
-   }
-
-   .about-info .line {
-      width: 85%;
-   }
 }
 
 /* Education */
