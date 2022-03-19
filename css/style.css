@@ -15,12 +15,10 @@ body {
   --dark: #181b24;
   --grey: #ccc;
   --blue: #00005c;
-  --orange: #fc5130;
+  --royal: #4169e1 
   --SectionGrey: #f2f2f2;
   --SectionWhite: #fff;
-  --red: #e60000;
   --navy: #00004d;
-  --green: #006600;
 }
 
 /* Navigation */
@@ -229,7 +227,7 @@ nav {
 }
 
 .grey {
-   color: #808080;
+   color: var(--royal);
 }
 
 .heading h3 {
@@ -295,7 +293,7 @@ nav {
 }
 
 .about-info .line {
-   background: var(--blue);
+   background: var(--royal);
    height: 5px;
    width: 425px;
    margin: auto;
