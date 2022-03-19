@@ -351,12 +351,6 @@ nav {
    }
 }
 
-/* Line */
-.line {
-   width: 75%;
-   margin: auto;
-}
-
 /* Skills */
 #skills {
    background: var(--grey);
