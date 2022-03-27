@@ -410,6 +410,7 @@ nav {
 
 .skill p {
    margin: 10px 0;
+   line-height: 25px;
 }
 
 @media (max-width: 900px) {
