@@ -269,7 +269,7 @@ nav {
 
 /*About */
 #about {
-   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/code-img.jpeg) center/cover fixed no-repeat;
+   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/code-img.jpeg) center/cover no-repeat;
    display: flex;
    justify-content: space-around;
    align-items: center;
