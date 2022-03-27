@@ -269,7 +269,7 @@ nav {
 
 /*About */
 #about {
-   background: var(--SectionGrey);
+   background: url(../img/background.jpg) no-repeat center center/cover;
    display: flex;
    justify-content: space-around;
    align-items: center;
