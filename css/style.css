@@ -269,7 +269,7 @@ nav {
 
 /*About */
 #about {
-   background: url(../img/tech5.jpg) no-repeat center center/cover;
+   background: var(--SectionGrey);
    display: flex;
    justify-content: space-around;
    align-items: center;
