@@ -323,6 +323,7 @@ nav {
   .about-img img {
       width: 75%;
       margin: 0 25px;
+      border-radius: 20px;
    }
    .about-info p {
       margin: 20px auto;
