@@ -345,7 +345,7 @@ nav {
 
 @media (max-width: 648px) {
    .about-img img {
-      width: 95%;
+      width: 75%;
    }
 
    .about-info {
