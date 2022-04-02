@@ -281,7 +281,6 @@ nav {
 .about-img img {
    width: 300px;
    border-radius: 20px;
-   margin: 25px 0;
 }
 
 .about-info {
@@ -338,9 +337,8 @@ nav {
    }
 
    .about-img img {
-      margin-left: auto;
-      margin-right: auto;
       display: block;
+      margin: 25px 0;
       width: 50%;
    }
 }
