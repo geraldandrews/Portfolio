@@ -269,7 +269,7 @@ nav {
 
 /*About */
 #about {
-   background: var(--grey);
+   background: var(--SectionGrey);
    display: flex;
    justify-content: space-around;
    align-items: center;
