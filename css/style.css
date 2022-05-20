@@ -286,9 +286,10 @@ nav {
 }
 
 .about-info {
-   background: rgb(33, 33, 33, 1);
+   background: #fff;
+   box-shadow: 0 10px 15px rgb(0, 0, 0, 0.7);
    padding: 25px;
-   border-radius: 20px;
+   border-radius: 10px;
 }
 
 .about-info h1 {
@@ -296,7 +297,7 @@ nav {
    font-weight: 100;
    letter-spacing: 1px;
    text-align: center;
-   color: #fff;
+   color: #333;
 } 
 
 .about-info h2 {
@@ -318,7 +319,7 @@ nav {
 .about-info p {
    width: 600px;
    margin: 40px 0;
-   color: #fff;
+   color: #333;
 }
 
 @media (max-width: 950px) {
