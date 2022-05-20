@@ -232,7 +232,7 @@ nav {
    border-radius: 50%;
 }
 
-.heading h1 {
+.heading-title h1 {
    margin-left: 25px;
    font-size: 4rem;
    color: var(--light);
@@ -255,7 +255,7 @@ nav {
       width: 75%;
    }
 
-   .heading h1 {
+   .heading-title h1 {
       font-size: 2rem;
       line-height: 2.7rem;
       padding: 10px 0;
@@ -326,7 +326,6 @@ nav {
       width: 75%;
       margin: 0 25px;
    }
-   
    .about-info p {
       margin: 20px auto;
       padding: 20px;
@@ -339,15 +338,17 @@ nav {
    }
 
    .about-img img {
+      margin-left: auto;
+      margin-right: auto;
       display: block;
-      margin: 50px auto;
       width: 50%;
+      padding: 20px;
    }
 }
 
 @media (max-width: 648px) {
    .about-img img {
-      width: 85%;
+      width: 95%;
    }
 
    .about-info {
