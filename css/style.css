@@ -761,8 +761,8 @@ textarea:hover {
    margin: 10px 0;
 }
 
-.info i {
-   margin: 25px 0;
+.info .fa-phone, .fa-envelope {
+   margin: 10px 0;
 }
 
 @media (max-width: 900px) {
