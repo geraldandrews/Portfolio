@@ -757,6 +757,10 @@ textarea:hover {
    margin: auto;
 }
 
+.info {
+   margin: 10px 0;
+}
+
 .info i {
    margin: 25px 0;
 }
