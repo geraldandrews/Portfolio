@@ -513,34 +513,6 @@ nav {
    }
 }
 
-/* Resume */
-.resume-section {
-   background: var(--royal);
-   padding: 25px;
-}
-
-.resume-btn {
-   display: block;
-   margin: 0 auto;
-   background: #181b24;
-   border: none;
-   border-radius: 5px;
-   outline: none;
-   padding: 15px 25px;
-   text-transform: capitalize;
-   font-size: 1.2rem;
-   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-}
-
-.resume-btn a {
-   text-decoration: none;
-   color: #fff;
-}
-
-.resume-btn a:hover {
-   text-decoration: underline;
-}
-
 /* Education */
 #education {
    background: #f1f1f1;
