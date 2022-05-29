@@ -775,6 +775,10 @@ textarea:hover {
    .info-column {
       width: 75%;
    }
+   
+   .info-column .line {
+      width: 75%;
+   }
 }
 
 @media (max-width: 750px) {
