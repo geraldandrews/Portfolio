@@ -758,11 +758,7 @@ textarea:hover {
 }
 
 .info i {
-   margin: 10px 0;
-}
-
-.info p {
-   margin: 5px 0;
+   margin: 25px 0;
 }
 
 @media (max-width: 900px) {
