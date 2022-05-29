@@ -750,6 +750,10 @@ textarea:hover {
    width: 50%;
 }
 
+.info-column i {
+   margin: 10px 0;
+}
+
 .info-column .line {
    width: 325px;
    height: 1px;
