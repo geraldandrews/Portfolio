@@ -56,13 +56,13 @@ function scrollShowNav() {
       document.documentElement.scrollTop > 20
    )
    {
-      document.getElementsByClassName("navbar")[0].style.padding = "10px 20px";  
+      document.getElementsByClassName("navbar")[0].style.padding = "15px 30px";  
       document.getElementsByClassName("navbar")[0].style.backgroundColor = "var(--dark)";
-      document.querySelector("#logo img").style.width = "40px";
+      document.querySelector("#logo img").style.width = "20%";
    } else {
       document.getElementsByClassName("navbar")[0].style.padding = "20px 50px";
       document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(0, 0, 0, 0.7)";
-      document.querySelector("#logo img").style.width = "50px";
+      document.querySelector("#logo img").style.width = "30%";
    }
 } 
 
