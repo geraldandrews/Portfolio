@@ -653,7 +653,7 @@ nav {
 #contact {
    background: var(--grey);
    color: #fff;
-   padding: 45px 0px;
+   padding: 35px 0px;
 }
 
 #contact h1 {
@@ -662,7 +662,6 @@ nav {
    font-weight: 100;
    letter-spacing: 1px;
    text-align: center;
-   padding: 10px 0;
 }
 
 .contact-container {
@@ -672,7 +671,7 @@ nav {
    justify-content: space-around;
    align-items: center;
    text-align: center;
-   margin: auto;
+   margin: 15px auto;
    border-radius: 5px;
    line-height: 25px;
 }
