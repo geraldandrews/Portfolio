@@ -711,7 +711,7 @@ textarea:hover {
   border: 0;
   background: var(--dark);
   color: #fff;
-  margin: 25px 0;
+  margin-top: 25px;
   border-radius: 5px;
 }
 
