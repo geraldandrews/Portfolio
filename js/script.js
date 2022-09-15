@@ -1,11 +1,3 @@
-/*const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.menu ');
-
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
-})*/
-
 // Responsive Nav
 $(function() {
   menu = $('nav ul');
@@ -56,13 +48,13 @@ function scrollShowNav() {
       document.documentElement.scrollTop > 20
    )
    {
-      document.getElementsByClassName("navbar")[0].style.padding = "15px 30px";  
+      document.getElementsByClassName("navbar")[0].style.padding = "5px 50px";  
       document.getElementsByClassName("navbar")[0].style.backgroundColor = "var(--dark)";
-      document.querySelector("#logo img").style.width = "20%";
-   } else {
-      document.getElementsByClassName("navbar")[0].style.padding = "20px 50px";
-      document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(0, 0, 0, 0.7)";
       document.querySelector("#logo img").style.width = "30%";
+   } else {
+      document.getElementsByClassName("navbar")[0].style.padding = "10px 50px";
+      document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(0, 0, 0, 0.7)";
+      document.querySelector("#logo img").style.width = "40%";
    }
 } 
 
