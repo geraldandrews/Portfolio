@@ -709,6 +709,14 @@ nav {
       width: 50%;
    }
   
+  .school h2 {
+    font-size: 0.9rem;
+  }
+  
+  .school h3 {
+    font-size: 1rem;
+  }
+  
   .school img {
       width: 50%;
    }
