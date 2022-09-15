@@ -739,6 +739,14 @@ nav {
       width: 75%;
       margin: 25px 0;
    }
+  
+   .school h2 {
+     font-size: 0.8rem;
+   }
+  
+   .school h3 {
+     font-size: 0.9rem;
+   }
 
    .school img {
       width: 75%;
