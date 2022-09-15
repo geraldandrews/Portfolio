@@ -642,7 +642,6 @@ nav {
 
 #education h2 {
    text-align: center;
-   font-size: 1rem;
 }
 
 .schools {
@@ -672,6 +671,7 @@ nav {
 }
 
 .school h3 {
+   font-size: 1rem;
    line-height: 2;
 }
 
