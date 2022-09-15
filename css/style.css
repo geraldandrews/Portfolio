@@ -640,11 +640,6 @@ nav {
    color: var(--dark);
 }
 
-#education h2 {
-   text-align: center;
-   font-size: 1.2rem;
-}
-
 .schools {
    margin: 25px 0;
    display: flex;
@@ -669,6 +664,11 @@ nav {
 
 .school a:hover {
    text-decoration: underline;
+}
+
+.school h2 {
+  font-size: 1rem;
+  text-align: center;
 }
 
 .school h3 {
@@ -716,19 +716,13 @@ nav {
    .school {
       width: 50%;
    }
-
-   .school img {
+  
+  .school img {
       width: 50%;
    }
 
    .school .line {
       width: 75%;
-   }
-}
-
-@media (max-width: 768px) {
-   .school h2 {
-      font-size: 1rem;
    }
 }
 
