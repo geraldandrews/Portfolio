@@ -59,13 +59,10 @@ function scrollShowNav() {
 } 
 
 // Animations
-ScrollReveal({
-  reset: false,
-  distance: '60px',
-  duration: 2500,
-  delay: 400
+AOS.init({
+  once: true,
+  delay: 0,
+  duration: 1000
 });
-
-ScrollReveal().reveal('.about-info', { delay: 0, origin: 'right' });
 
 
