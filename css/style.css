@@ -652,6 +652,11 @@ nav {
    margin: 20px;
 }
 
+#projects .project {
+  border: 2px solid var(--white);
+  border-radius: 7px;
+}
+
 .project img {
    width: 100%;
    border-top-left-radius: 5px;
