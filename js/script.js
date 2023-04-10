@@ -4,6 +4,7 @@ $(function() {
 
   $('.menu-toggle').on('click', function(e) {
     e.preventDefault(); menu.slideToggle();
+    $(".menu-toggle").toggleClass("is-active");
   });
 
   $(window).resize(function(){
