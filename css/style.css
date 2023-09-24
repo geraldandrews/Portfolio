@@ -892,7 +892,7 @@ textarea:hover {
 /* Footer */
 .footer {
    background: var(--dark);
-   padding: 5px 0;
+   padding: 10px 0;
 }
 
 .footer p {
