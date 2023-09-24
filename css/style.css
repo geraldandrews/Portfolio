@@ -427,11 +427,11 @@ nav {
    transform: translateY(-1%);
 }
 
-/*@media (hover: hover) {
+@media (hover: hover) {
    .about-info .btn:hover {
       background: #var(--white);
    }
-}*/
+}
 
 @media (max-width: 1024px) {
    #about {
