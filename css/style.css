@@ -429,7 +429,7 @@ nav {
 
 @media (hover: hover) {
    .about-info .btn:hover {
-      background: #ff8600;
+      background: #var(--white);
    }
 }
 
