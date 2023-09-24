@@ -427,6 +427,12 @@ nav {
    transform: translateY(-1%);
 }
 
+@media (hover: hover) {
+   .about-info .btn:hover {
+      background: #ff8600;
+   }
+}
+
 @media (max-width: 1024px) {
    #about {
       width: 90%;
