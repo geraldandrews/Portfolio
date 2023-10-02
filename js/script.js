@@ -23,7 +23,7 @@ $(function() {
   });
 
 // Smooth Scrolling
-$('.menu a').on('click', function(event) {
+$('.menu a, .btn a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
