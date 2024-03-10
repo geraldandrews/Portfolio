@@ -335,13 +335,6 @@ nav {
    border-radius: 5px;
 }
 
-.about-img img {
-   width: 75%;
-   display: block;
-   margin: 0 auto;
-   border-radius: 5px;
-}
-
 .about-img .info {
    text-align: center;
 }
