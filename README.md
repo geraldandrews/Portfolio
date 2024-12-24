@@ -1,5 +1,5 @@
 # Portfolio Website
-### Live Site: https://geraldandrewsmedia.com/
+### Live Site: https://geraldandrewsmedia.netlify.app/
 
 ### Project Description: Personal Portfolio
 ### Programs Used: Photoshop, GIMP, HTML, CSS, JavaScript, and AOS JS
