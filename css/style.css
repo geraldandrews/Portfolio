@@ -10,11 +10,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    scroll-padding-top: 100px;
 }
 
 body {
     background: #080808;
     color: #fff;
+}
+
+.container {
+    padding: 10px 10%;
 }
 
 /** BACK TO TOP BUTTON **/
@@ -52,25 +57,37 @@ body {
     opacity: 0;
 }
 
-/** Header Section **/
-#header {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-}
-
-.container {
-    padding: 10px 10%;
-}
-
+/** navbar **/
 nav {
     background: var(--royal);
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    margin-top: 15px;
+    position: sticky;
+    top: 0;
+    transition: width 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 0 30px;
+    z-index: 999;
+}
+
+nav.expanded {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+/*.nav-contents {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 0 0 0 15px;
-}
+    height: 100%;
+}*/
 
 nav img {
     width: 8%;
@@ -112,9 +129,26 @@ nav .social-icons i {
     color: #fff;
 }
 
+.nav-link {
+    scroll-behavior: smooth;
+}
+
+/* header section */
+#header {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-text {
-    margin-top: 20%;
     font-size: 30px;
+}
+
+.header-text img {
+    display: none;
 }
 
 .header-text h1 {
@@ -380,7 +414,7 @@ nav .social-icons i {
 
 /** Contact **/
 #contact {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .contact-left {
@@ -491,8 +525,10 @@ form .btn-2 {
         display: none;
     }
 
-    .header-text {
-        margin-top: 50%;
+    .header-text img {
+        display: block;
+        margin: 0 auto;
+        width: 12rem;
     }
 
     .header-text .social-icons {
@@ -539,8 +575,13 @@ form .btn-2 {
 }
 
 @media (max-width: 600px) {
-    nav {
+    /*nav {
         position: relative;
+
+    }*/
+
+    nav.expanded {
+        justify-content: space-between;
     }
 
     nav img {
@@ -554,7 +595,7 @@ form .btn-2 {
         align-items: center;
         width: 100%;
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: -100%;
         opacity: 0;
         transition: all 0.5s ease;
@@ -572,8 +613,8 @@ form .btn-2 {
         flex-direction: column;
         justify-content: space-between;
         position: absolute;
-        top: 20%;
-        right: 5%;
+        top: 30%;
+        right: 10%;
         width: 40px;
         height: 30px;
         transform: translate(10%);
@@ -601,7 +642,6 @@ form .btn-2 {
     }
 
     .header-text {
-        margin-top: 90%;
         font-size: 16px;
     }
 
@@ -613,8 +653,5 @@ form .btn-2 {
         width: 100%;
     }
 }
-
-
-
 
 
