@@ -8,6 +8,19 @@ toggleBtn.addEventListener('click', function() {
   mobileMenu.classList.toggle('active');
 });
 
+/* Expand navbar width on scroll */
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  let navbar = document.querySelector('nav');
+
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    navbar.classList.add('expanded');
+  } else {
+    navbar.classList.remove('expanded');
+  }
+}
+
 /* Smooth Scroll */
 let anchorSelector = '#mobile-menu a[href^="#"]';
 let anchorList = document.querySelectorAll(anchorSelector);
@@ -48,7 +61,6 @@ const goToTop = () => {
   };
 
   backToTopButton.addEventListener("click", goToTop)
-
 
 /* Tabs */
 document.addEventListener('DOMContentLoaded', function(){
