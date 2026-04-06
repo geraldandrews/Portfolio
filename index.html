@@ -8,31 +8,32 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Gerald Andrews Media</title>
+    <title>My Portfolio</title>
 </head>
 <body>
+    <section id="home"></section>
+    <nav>
+        <img src="img/logo.png" class="logo">
+        <ul id="mobile-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/DigitalDesigner76" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/geraldandrews" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/gerald-andrews-0a57101ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="menu-btn" id="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
     <section id="header">
         <div class="container">
-            <nav>
-                <img src="img/logo.png" class="logo">
-                <ul id="mobile-menu">
-                    <li><a href="#header" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/DigitalDesigner76" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://github.com/geraldandrews" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/gerald-andrews-0a57101ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="menu-btn" id="toggle-btn">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
             <div class="header-text">
                 <h3>Welcome To</h3>
                 <h1>Gerald Andrews <span>Media</span></h1>
@@ -331,8 +332,8 @@
                     <form action='POST' method='post'><input type='hidden' name='form-name' value='form 1' />
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
-                        <input type="text" name="subject" placeholder="Subject">
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="email" name="subject" placeholder="Subject">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn-2">Submit</button>
                     </form>
                 </div>
@@ -343,15 +344,9 @@
         </div>
     </section>
 
-     <button class="back-to-top hidden"><i class="fas fa-chevron-up"></i></button>
+    <button class="back-to-top hidden"><i class="fas fa-chevron-up"></i></button>
      
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-</html> 
-         
-
-
-
-
-
+</html>
