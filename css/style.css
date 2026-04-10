@@ -78,6 +78,7 @@ nav {
 nav.expanded {
     width: 100%;
     transition: width 0.5s;
+    justify-content: space-evenly;
 }
 
 /*.nav-contents {
