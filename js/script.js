@@ -14,7 +14,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   let navbar = document.querySelector('nav');
 
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
     navbar.classList.add('expanded');
   } else {
     navbar.classList.remove('expanded');
